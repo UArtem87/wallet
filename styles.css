@@ -71,9 +71,10 @@ body {
 }
 
 .btn {
+  margin-bottom: 5px;
   padding: 2px;
   height: 40px;
-  width: 30%;
+  width: 35%;
   border: none;
   border-radius: 10px;
   font-size: 18px;
