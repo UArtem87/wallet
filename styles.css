@@ -81,9 +81,11 @@ body {
   background-color: #fff;
 }
 
-.btn:hover {
-  scale: 1.05;
-  box-shadow: 3px -6px 15px black;
+@media (min-width: 1024px) {
+  .btn:hover {
+    scale: 1.05;
+    box-shadow: 3px -6px 15px black;
+  }
 }
 
 .history {
