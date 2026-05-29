@@ -19,7 +19,7 @@ const initWallet = () => {
 
   return {
     get count() {
-      return currentCount.toFixed(2);
+      return parseFloat(currentCount.toFixed(2));
     },
 
     add(val) {
