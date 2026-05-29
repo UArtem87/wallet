@@ -19,7 +19,7 @@ const initWallet = () => {
 
   return {
     get count() {
-      return currentCount;
+      return currentCount.toFixed(2);
     },
 
     add(val) {
@@ -74,7 +74,7 @@ const analitics = ({ history }) => {
     isAdd ? (earned += value) : (spent += value);
   });
 
-  analitList.textContent = `Заработано: ${earned}$ Потрачено: ${spent}$`;
+  analitList.textContent = `Заработано: ${earned.toFixed(2)}$ Потрачено: ${spent.toFixed(2)}$`;
 };
 
 analitics(wallet);
