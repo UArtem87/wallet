@@ -98,7 +98,7 @@ body {
   flex-direction: column;
   gap: 5px;
   align-items: center;
-  width: 30vw;
+  min-width: 30vw;
   max-height: 140px;
   overflow-y: auto;
   overflow-x: hidden;
