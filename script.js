@@ -74,7 +74,7 @@ const analitics = ({ history }) => {
     isAdd ? (earned += value) : (spent += value);
   });
 
-  analitList.textContent = `Заработано: ${earned.toFixed(2)}$ Потрачено: ${spent.toFixed(2)}$`;
+  analitList.textContent = `Заработано: ${parseFloat(earned.toFixed(2))}$ Потрачено: ${parseFloat(spent.toFixed(2))}$`;
 };
 
 analitics(wallet);
